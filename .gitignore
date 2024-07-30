@@ -1,0 +1,11 @@
+node_modules
+import.jsonl
+import.jsonl.old
+export/
+**.DS_Store
+.idea
+/emoji/*
+!/emoji/.gitkeep
+/export-emojis/
+data-map*
+.env

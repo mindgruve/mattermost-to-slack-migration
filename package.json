@@ -1,0 +1,17 @@
+{
+  "name": "mattermmost-to-slack-migration",
+  "version": "1.0.0",
+  "description": "This is a Node.js script to reformat Mattermost export data into Slack JSON format.",
+  "keywords": ["mattermost", "slack"],
+  "author": "Westley Marchment <wmarchment@mindgrue.com> (https://mindgruve.com/)",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "file-type": "^19.0.0",
+    "fs": "^0.0.1-security",
+    "readline": "^1.3.0"
+  },
+  "scripts": {
+    "build": "node --env-file=.env index.js"
+  }
+}
